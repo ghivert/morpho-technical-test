@@ -23,6 +23,9 @@ export default createTheme({
 			light: '#F8FBFF66',
 			transparent: '#F8FBFF1A',
 		},
+		secondary: {
+			main: '#5B8CFF',
+		},
 		text: {
 			primary: '#FFFFFF',
 			secondary: '#5B8CFF',

@@ -34,6 +34,7 @@ export const MOCK_DATA = {
 }
 
 export type Data = typeof MOCK_DATA
+export type Market = typeof MOCK_DATA.markets[0]
 export type Update = (value: Data) => void
 // @ts-ignore
 const Ctx: Context<[Data, Update]> = createContext([MOCK_DATA, () => {}])
